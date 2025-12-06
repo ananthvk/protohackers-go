@@ -9,5 +9,5 @@ Previous solution in python is available here: [https://github.com/ananthvk/prot
 Example:
 
 ```bash
-$ ./deploy.sh ./cmd/00_smoke_test -host 0.0.0.0
+$ ./deploy.sh ./00_smoke_test/cmd/server -host 0.0.0.0
 ```

@@ -7,7 +7,7 @@ set -e
 if [[ $# -lt 1 ]]; then
     echo "Invalid number of arguments" >&2
     echo "Usage: ./deploy.sh <path> <extra args passed to program>" >&2
-    echo "Example: ./deploy.sh ./cmd/00_smoke_test -host 0.0.0.0" >&2
+    echo "Example: ./deploy.sh ./00_smoke_test/cmd/server" >&2
     exit 1
 fi
 if [[ -n "$SSH_TARGET" ]]; then
